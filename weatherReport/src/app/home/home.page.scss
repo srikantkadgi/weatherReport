@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+ion-header {
+    ion-toolbar {
+        --background: #bcd9ff;
+        ion-icon {
+            font-size: 1.4rem;
+        }
+        ion-title {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+ion-content {
+    --background: #e5f0fc;
+    .main-info {
+        text-align: center;
+        margin-top: 4em;
+        img {
+            height: 8em;
+        }
+        h5 {
+            margin-top: 1em;
+            color: #9ca5ba;
+            font-size: 1em;
+        }
+    }
+}
+
+ion-button {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1em;
+    color: #9ca5ba;
+    font-size: 1em;
+    width: 25%;
+}
